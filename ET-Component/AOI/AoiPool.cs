@@ -30,6 +30,7 @@ namespace ETModel.AOI
         public T Fetch<T>(params object[] args) where T : class
         {
             var type = typeof(T);
+            //?123
 
             if (_dic.TryGetValue(type, out var queue))
             {
