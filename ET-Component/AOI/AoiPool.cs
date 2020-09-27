@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace ETModel.AOI
 {
+//啦啦啦啦
     public class AoiPool
     {
         public static AoiPool Instance => _instance ?? (_instance = new AoiPool());
