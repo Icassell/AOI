@@ -2,6 +2,7 @@ using System.Collections.Generic;
 
 namespace ETModel.AOI
 {
+	//test statsh
     public struct AoiInfo
     {
         public HashSet<long> MovesSet;
