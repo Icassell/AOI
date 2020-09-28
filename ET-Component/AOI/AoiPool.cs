@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace ETModel.AOI
 {
+	//SourceTree修改
     public class AoiPool
     {
         public static AoiPool Instance => _instance ?? (_instance = new AoiPool());
