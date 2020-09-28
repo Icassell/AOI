@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace ETModel.AOI
 {
-//啦啦啦啦
     public class AoiPool
     {
         public static AoiPool Instance => _instance ?? (_instance = new AoiPool());
@@ -31,7 +30,6 @@ namespace ETModel.AOI
         public T Fetch<T>(params object[] args) where T : class
         {
             var type = typeof(T);
-            //?123
 
             if (_dic.TryGetValue(type, out var queue))
             {
