@@ -20,6 +20,7 @@ namespace ETModel.AOI
                 return queue.Count > 0 ? (T) queue.Dequeue() : (T) Activator.CreateInstance(type);
             }
 //gittortoise修改
+//gittortoise修改123
             queue = new Queue<object>();
 
             _dic.Add(type, queue);
