@@ -4,6 +4,7 @@ using System.Collections.Generic;
 namespace ETModel.AOI
 {
 	//SourceTree修改
+	//SourceTree修改123
     public class AoiPool
     {
         public static AoiPool Instance => _instance ?? (_instance = new AoiPool());
