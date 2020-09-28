@@ -25,6 +25,7 @@ namespace ETModel.AOI
 //gittortoise修改123
 //gittortoise修改456
 //gittortoise修改789
+//gittortoise修改111
             queue = new Queue<object>();
 
             _dic.Add(type, queue);
